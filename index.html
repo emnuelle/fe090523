@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aula 2 ~ Formulários</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <h1>Formulários</h1>
+
+    <form action="cadastrar" method="get">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="c-nome">Nome</label>
+            <input type="text" nome="nome" id="c-nome">
+            
+        </fieldset>
+        <fieldset>
+            <legend>Tamanho</legend>
+            <input type="radio" name="Tamanho" id="c-peq" value="P">
+            <label for="c-peq">Pequeno</label>
+            <input type="radio" name="Tamanho" id="c-med" value="M">
+            <label for="c-peq">Médio</label>
+            <input type="radio" name="Tamanho" id="c-peq" value="G">
+            <label for="c-peq">Grande</label>
+        </fieldset>
+        <br>
+        <input type="submit" value="Cadastrar">
+
+    </form>
+
 </body>
 </html>
