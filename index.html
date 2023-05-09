@@ -14,8 +14,8 @@
         <fieldset>
             <legend>Dados pessoais</legend>
             <label for="c-nome">Nome</label>
-            <input type="text" nome="nome" id="c-nome">
-            
+            <input type="text" nome="nome" id="c-nome" required autofocus autocomplete="off" maxlength="15">
+            <br>
         </fieldset>
         <fieldset>
             <legend>Tamanho</legend>
@@ -39,9 +39,12 @@
         <input type="submit" value="Cadastrar">
         <input type="reset" value="limpar">
         <input type="button" value="Calcular">
+        <br>
+        <br>
         <fieldset>
             <legend>Observação</legend>
-            <textarea name="obs" id="c-obs" cols="30" rows="10"></textarea>
+            <textarea name="obs" id="c-obs" cols="30" rows="10" maxlength="600"></textarea>
+
             <label for="c-uf">Estado</label>
 
             <select name="uf" id="c-uf">
